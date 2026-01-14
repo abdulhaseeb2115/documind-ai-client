@@ -4,7 +4,6 @@ Modern, responsive Next.js frontend for DocuMind AI with a beautiful UI and smoo
 
 ![DocuMind-AI Screenshot](./public/hero.png)
 
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -250,21 +249,25 @@ The application is fully responsive:
 ### Common Issues
 
 **1. Cannot connect to backend**
+
 - Ensure backend is running on port 8000
 - Check CORS configuration in backend
 - Verify API endpoint URLs
 
 **2. Build errors**
+
 - Clear `.next` folder: `rm -rf .next`
 - Reinstall dependencies: `rm -rf node_modules && npm install`
 - Check Node.js version (18+)
 
 **3. Images not loading**
+
 - Ensure images are in `/public` folder
 - Use Next.js `Image` component for optimization
 - Check file paths are correct
 
 **4. Styling issues**
+
 - Clear browser cache
 - Check Tailwind CSS configuration
 - Verify `globals.css` is imported in layout
@@ -338,6 +341,7 @@ Then use `process.env.NEXT_PUBLIC_API_URL` in your code.
 ### Changing Colors
 
 Update color values in:
+
 - `src/app/globals.css` - CSS variables and animations
 - Component files - Tailwind classes
 
@@ -390,3 +394,9 @@ When contributing to the frontend:
 ---
 
 **Note:** This frontend is designed to work with the DocuMind AI backend. Make sure the backend server is running for full functionality.
+
+## 📸 Chat Screenshots
+
+![DocuMind-AI Screenshot](./public/chat-session.png)
+
+![DocuMind-AI Screenshot](./public/empty-session.png)
